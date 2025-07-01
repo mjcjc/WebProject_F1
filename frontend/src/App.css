@@ -18,16 +18,19 @@ body {
 #root {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
-.app {
-  min-height: 100vh;
+.page-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
 
 :root {
   --header-height: 60px;
+  --max-width: 1420px;
 
   --cell-width: 100px;
   --cell-gap: 20px;
@@ -43,5 +46,4 @@ body {
   --cell10: calc(var(--cell-width)*10 + var(--cell-gap)*9);
   --cell11: calc(var(--cell-width)*11 + var(--cell-gap)*10);
   --cell12: calc(var(--cell-width)*12 + var(--cell-gap)*11);
-  --max-width: 1420px;
 }

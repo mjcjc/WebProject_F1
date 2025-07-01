@@ -1,0 +1,15 @@
+.gallery-page {
+    width: 100%;
+    max-width: var(--max-width);
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--cell-gap);
+}
+
+.gallery-item {
+    width: 100%;
+    background-color: #333;
+}

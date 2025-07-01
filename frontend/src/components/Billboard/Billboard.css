@@ -1,5 +1,6 @@
 .billboard {
   width: 100%;
+  height: calc(100vh - 60px);
   height: calc(100svh - 60px);
   background-color: #111;
   display: flex;

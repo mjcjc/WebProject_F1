@@ -10,14 +10,14 @@ import Billboard from './components/Billboard/Billboard';
 function App() {
   return (
     <Router>
-      <div className="app">
+      <>
           <Routes>
             <Route path="/gallery" element={
-              <>
+              <div className='page-container'>
                 <Billboard />
                 <Header />
                 <Gallery />
-              </>
+              </div>
             } />
             <Route path="/list" element={<List />} />
             <Route path="/apply" element={<Apply />} />
@@ -31,7 +31,7 @@ function App() {
             } />
           </Routes>
         <Footer />
-      </div>
+      </>
     </Router>
   )
 }
