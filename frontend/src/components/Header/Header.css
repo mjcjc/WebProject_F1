@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  background: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  max-width: var(--max-width);
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #ddd;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-logo {
+  font-size: 24px;
+}

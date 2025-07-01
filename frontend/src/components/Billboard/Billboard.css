@@ -1,0 +1,7 @@
+.billboard {
+  width: 100%;
+  height: calc(100svh - 60px);
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+}
