@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>F1 Project</h3>
-            <p>Your premier destination for Formula 1 content and applications.</p>
+            <h3>Akito Dangganga</h3>
+            <p>ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
           </div>
           
           <div className="footer-section">
@@ -24,13 +24,13 @@ const Footer = () => {
           
           <div className="footer-section">
             <h4>Contact</h4>
-            <p>Email: info@f1project.com</p>
-            <p>Phone: +1 (555) 123-4567</p>
+            <p>Email: info@danganga.com</p>
+            <p>Phone: +82 (888) 888-8888</p>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} F1 Project. All rights reserved.</p>
+          <p>&copy; {currentYear} Akito Dangganga. All rights reserved.</p>
         </div>
       </div>
     </footer>
